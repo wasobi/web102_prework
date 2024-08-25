@@ -156,14 +156,25 @@ allBtn.addEventListener("click",showAllGames);
 // grab the description container
 const descriptionContainer = document.getElementById("description-container");
 
+// Step 1
 // use filter or reduce to count the number of unfunded games
+const totalUnfundedGames = GAMES_JSON.reduce((accumulator,game) => {
+    return game.pledged < game.goal ? accumulator += 1 : accumulator;
+}, 0);
 
 
+// Step 2
 // create a string that explains the number of unfunded games using the ternary operator
+let totalFundraisingStr = `A whopping ${totalRaised.toLocaleString("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 0})} has been raised for ${totalGames} games.`;
+totalFundraisingStr += totalUnfundedGames == 1 ? ` There is ${totalUnfundedGames} game that hasn't met their goal! Pledge today!`
+                                                : ` There are ${totalUnfundedGames} games that haven't met their goal! Pledge today!`
+console.log(totalFundraisingStr);
 
-
+// Step 3
 // create a new DOM element containing the template string and append it to the description container
-
+let fundraiserDescription = document.createElement("p");
+fundraiserDescription.innerHTML = totalFundraisingStr;
+descriptionContainer.append(fundraiserDescription);
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
  * Skills used: spread operator, destructuring, template literals, sort 
@@ -176,8 +187,19 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
     return item2.pledged - item1.pledged;
 });
 
+// Step 1
 // use destructuring and the spread operator to grab the first and second games
+let [firstMostFundedGame, secondMostFundedGame, ...otherGames] = sortedGames;
 
+// Step 2
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+let topFundedGameElement = document.createElement("p");
+let secondTopFundedGameElement = document.createElement("p");
+
+topFundedGameElement.textContent = firstMostFundedGame.name;
+secondTopFundedGameElement.textContent = secondMostFundedGame.name;
+
+firstGameContainer.append(topFundedGameElement);
+secondGameContainer.append(secondTopFundedGameElement);
 
 // do the same for the runner up item
