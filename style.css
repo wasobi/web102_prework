@@ -42,6 +42,13 @@ body {
     justify-content: space-around;
 }
 
+#stats-containers {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px;
+}
+
 .game-img {
     width: 100%;
     border-radius: 5px;
