@@ -17,7 +17,16 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] Edit the CSS to make the website more visually appealing for the target audience 
+* [x] Added a navbar to the top of the page
+* [x] Added a link in the navbar that allows the user to jump down to the "Our Games" section
+* [x] Change the background color to lighten the overall look of the site
+* [x] Add styling to buttons to signal to the user what selection they have made
+* [x] Increased margins around the body to give the webpage a sleeker look
+* [x] Change the header font and icon size to percentages to maintain visual aesthetic when the window is resized
+* [x] Increased the font size of the header text that displays the name of the website
+* [x] Increased the icon size to emphasize the brand
+* [x] Removed hover styling for the game cards to reduce confusion by making sure the user doesn't think they can click the game cards
+* [x] Add animation to the button hover
 
 ## Video Walkthrough
 
@@ -26,9 +35,8 @@ Here's a walkthrough of implemented features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [Kap](https://getkap.co/) for macOS 
 <!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
@@ -38,7 +46,7 @@ Building this application required patience and focus to complete each challenge
 
 ## License
 
-    Copyright [2024] [Sierra Obi]
+    Copyright 2024 Sierra Obi
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
