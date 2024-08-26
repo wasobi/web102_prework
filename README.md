@@ -33,7 +33,15 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 [Link](https://i.imgur.com/GikogWO.gif)
 
+### Full Demo
 ![Video Walkthrough](assets/WEB102-prework-demo.gif)
+
+### Added Navbar and Changed CSS Styling for Header
+![Feature: Added Navbar and Changed Heading](assets/feature-navbar-header.gif)
+
+### Added Link to Games in Navbar, CSS Styling for Buttons, and Removed Hover from Games
+![Feature: Overhauled Game Section with CSS Styling](assets/feature-game-navigation.gif)
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) for macOS 
 <!-- Recommended tools:
