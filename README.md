@@ -31,9 +31,9 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+[https://i.imgur.com/GikogWO.gif](Video)
 
-<img src='https://i.imgur.com/GikogWO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+![Video Walkthrough](assets/WEB102-prework-demo.gif)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) for macOS 
 <!-- Recommended tools:
