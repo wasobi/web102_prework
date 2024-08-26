@@ -31,7 +31,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-[https://i.imgur.com/GikogWO.gif](Video)
+[Link](https://i.imgur.com/GikogWO.gif)
 
 ![Video Walkthrough](assets/WEB102-prework-demo.gif)
 <!-- Replace this with whatever GIF tool you used! -->
