@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/GikogWO.gif' title='Sierra Obi - Video Walkthrough' width='' alt='Sierra Obi - Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) for macOS 
@@ -41,6 +41,7 @@ GIF created with [Kap](https://getkap.co/) for macOS
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
+Thank you for your time and consideration in viewing my submission. I had so much fun doing this project that I almost got carried away when I was experimenting with the customizations, although I tried to keep the integrity of the original design. I can't wait to learn more about making full-stack applications, leveraging different technologies, and diving deeper into design! There is so much I still don't know how to do.
 
 Building this application required patience and focus to complete each challenge. When I encountered an issue, it was often because I didn't have a good understanding of the task. However, by reading the source materials and filling in any gaps with additional reading materials, I was able to complete each challenge. I had the most trouble understanding how the console log output works. Only after reading and trying to find my answer online did I reach out to the WEB102 Slack channel. After Anuj helped explain what I was doing wrong, I felt confident enough to move along. 
 
