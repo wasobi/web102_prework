@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/GikogWO.gif' title='Sierra Obi - Video Walkthrough' width='' alt='Sierra Obi - Video Walkthrough' />
+<img src='https://i.imgur.com/GikogWO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) for macOS 
